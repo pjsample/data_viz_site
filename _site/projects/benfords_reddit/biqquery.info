@@ -1,0 +1,12 @@
+1575489600
+1575493200
+
+SELECT
+  author,
+  body,
+  subreddit,
+  score
+FROM
+  `fh-bigquery.reddit_comments.2019_12`
+WHERE
+  REGEXP_CONTAINS(body, '[ #$-][1-9]')

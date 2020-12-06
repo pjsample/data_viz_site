@@ -1,0 +1,146 @@
+html{
+    background-color: white;
+    font-weight: normal;
+}
+
+body{
+    /*max-width: 1000px;*/
+    margin: 0px auto;
+    /*font-family: 'Roboto Slab', serif;*/
+    line-height: 1.55em;
+    font-size: 14px;
+    margin-bottom: 80px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+    background-color: #ffffff;
+}
+
+div.big_plot {
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+div.section_2 {
+    max-width: 750px;
+    margin: auto;
+}
+
+p {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: justify;
+    font-size: small;
+}
+svg rect {
+    fill: orange;
+}
+
+div.main {
+    margin-top: 70px;
+    width: 800px;
+    /*margin-left: 0px;*/
+}
+
+div.comment {
+    padding-top: 10px;
+    background-color: #ffffff;
+}
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    font: 12px sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.flex-container > div {
+    margin: 0px;
+    padding-right: 0px;
+    font-size: 10px;
+}
+svg text.comment_body {
+    fill: black;
+    font: 20px sans-serif;
+    /* text-anchor: end; */
+}
+
+svg text {
+    fill: black;
+    font: 12px sans-serif;
+    text-anchor: end;
+}
+.bar {
+    fill: #dfdfe3;
+    stroke: black;
+    stroke-width: 0px;
+
+}
+.benford_line {
+    stroke: #EF476F;
+    stroke-width: 4px;
+    fill: none;
+}
+.data_line {
+    stroke: #e16462;
+    stroke-width: 4px;
+    fill: none;
+}
+.mini_benford_line {
+    stroke: #EF476F;
+    stroke-width: 3px;
+    fill: none;
+}
+.mini_data_line {
+    stroke: #e16462;
+    stroke-width: 3px;
+    fill: none;
+}
+.generic_line {
+    stroke-width: 4px;
+    fill: none;
+}
+.axis-title {
+    font: 16px sans-serif;
+}
+yaxis.prob {
+    font: 18px sans-serif;
+}
+
+yaxis.big {
+    font-size: 20px;
+}
+p.comment-number {
+    color: #000000;
+    /*margin-left: 10px;*/
+    margin-top: 0px;
+    margin-bottom: 0;
+    margin-right: 20px;
+    text-align: right;
+    /*font-weight: bold;*/
+    font-size: small;
+    font-family: -apple-system,San Francisco Display,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+p.user-name {
+    color: #369;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    white-space: pre;
+    font-weight: bold;
+    font-size: small;
+    font-family: -apple-system,San Francisco Display,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+p.comment {
+    word-wrap: break-word;
+    color: #222222;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: small;
+    font-family: -apple-system,San Francisco Display,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+h1 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+}

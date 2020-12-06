@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>randomSample</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <id>http://localhost:4000</id>
+ <updated>2020-12-06T08:45:17-08:00</updated>
+ <author>
+   <name>Paul Sample</name>
+   <uri>http://www.random-sample.com</uri>
+   <email>pjsample@gmail.com</email>
+ </author>
+
+ 
+
+</feed>
