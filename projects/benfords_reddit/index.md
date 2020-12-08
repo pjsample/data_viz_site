@@ -33,8 +33,8 @@ description: Project page
                     <span style="color:#EF476F;font-weight:bold">Benford's Law </span> describes a natural phenomenon where the first digits (eg. the 3 from 300)
                     in a series of numbers follow a predictable, mathematically-defined pattern.
                     For example, you might expect that the first digits in <span style="color:#FFD166;font-weight:bold"> city populations </span> or the 
-                    <span style="color:#06D6A0;font-weight:bold"> distances of stars from Earth </span> to be uniformly distributed between 1 to 9, but instead they 
-                    follow the distribution to the right.
+                    <span style="color:#06D6A0;font-weight:bold"> distances of stars from Earth </span> to be uniformly distributed between 1 to 9, but instead 1's
+                    are represented ~30% of the time and each number progressively less up to 9 which is represented ~5% of the time.
                     <br>
                     After analyzing millions of randomly selected <span style="color:#118AB2;font-weight:bold">Reddit comments </span> in 2,500 subreddites, 
                     it's clear that the numbers within them often follow Benford's Law. The plots below show the 35 most 

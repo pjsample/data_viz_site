@@ -4,10 +4,10 @@
  <title>randomSample</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <id>http://localhost:4000</id>
- <updated>2020-12-06T08:45:17-08:00</updated>
+ <updated>2020-12-08T07:05:54-08:00</updated>
  <author>
    <name>Paul Sample</name>
-   <uri>http://www.random-sample.com</uri>
+   <uri>https://www.random-sample.com</uri>
    <email>pjsample@gmail.com</email>
  </author>
 
