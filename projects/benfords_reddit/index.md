@@ -87,6 +87,7 @@ description: Project page
             to click on the histogram bars and explore the subreddits that fall into each bin. For example, it's mildly 
             interesting that r/mildlyinteresting is so Benford-like. And third, I just think 
             that the histogram followed by the line charts look nice. :]
+            <br> If the plot below does not load then refreshing the page might help.
         </p>
         <br>
         <div id="likelihood-div"> </div>
