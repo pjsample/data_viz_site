@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="115.70117mm"
+   height="25.72769mm"
+   viewBox="0 0 115.70117 25.72769"
+   version="1.1"
+   id="svg1022"
+   sodipodi:docname="people_to_point.svg"
+   inkscape:version="1.0.1 (c497b03c, 2020-09-10)">
+  <defs
+     id="defs1016" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.2450913"
+     inkscape:cx="177.12058"
+     inkscape:cy="36.151001"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:window-width="1541"
+     inkscape:window-height="916"
+     inkscape:window-x="65"
+     inkscape:window-y="504"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata1019">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-43.108836,-169.67636)">
+    <circle
+       style="fill:#ec625f;fill-opacity:1;stroke-width:0.0862172"
+       id="path1026"
+       cx="100.90184"
+       cy="190.0936"
+       r="2.4140854" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 43.108836,169.92636 h 0.444173 v 4.73001 H 158.56001 v -4.95809"
+       id="path1030" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 100.90184,174.7028 v 10.56061"
+       id="path1032" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ecedef;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="107.81628"
+       y="188.58281"
+       id="text1597"><tspan
+         sodipodi:role="line"
+         id="tspan1595"
+         x="107.81628"
+         y="188.58281"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ecedef;fill-opacity:1;stroke-width:0.264583">911</tspan><tspan
+         sodipodi:role="line"
+         x="107.81628"
+         y="196.52031"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ecedef;fill-opacity:1;stroke-width:0.264583"
+         id="tspan1599" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ecedef;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="107.91032"
+       y="194.77567"
+       id="text1603"><tspan
+         sodipodi:role="line"
+         id="tspan1601"
+         x="107.91032"
+         y="194.77567"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ecedef;fill-opacity:1;stroke-width:0.264583">2,977 Deaths</tspan></text>
+  </g>
+</svg>
