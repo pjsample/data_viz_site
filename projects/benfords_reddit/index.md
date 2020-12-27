@@ -4,9 +4,6 @@ title: Benford's Reddit
 description: Project page
 ---
 <script src="https://d3js.org/d3.v5.js"></script>
-<script src="script.js"></script>
-<script src="subreddits.js"></script>
-<script src="big_plot.js"></script>
 <link rel="stylesheet" href="stylesheet.css">
 
 <div class="main">
@@ -17,7 +14,7 @@ description: Project page
         <br><br>
         The real purpose of this page is to, one, explore the possibility of finding Benford's Law in the numbers of Reddit comments
         and, two, find interesting ways to visualize the data. So it's a mix of data viz storytelling and data viz shop talk.
-        You can find BigQuery code, Jupyter Notebooks, and D3 code on my Github.
+        You can find BigQuery code, Jupyter Notebooks, and D3 code on my <a href="https://github.com/pjsample">Github.</a>
         <br><br>
         The first section is intended to be a standalone figure -- briefly describe Benford's Law in as few words as possible,
         show two real-world examples to make the description tangible, and then provide the punchline from the analysis.
@@ -136,3 +133,7 @@ description: Project page
             <div id="intro-bens-div"></div>
         </div>
 </div>
+
+<script src="script.js"></script>
+<script src="subreddits.js"></script>
+<script src="big_plot.js"></script>

@@ -1,0 +1,166 @@
+html{
+    background-color: #313131;
+    font-weight: normal;
+}
+
+body{
+    /*max-width: 1000px;*/
+    /*margin: 0px auto;*/
+    /*font-family: 'Roboto Slab', serif;*/
+    line-height: 1.55em;
+    font-size: 14px;
+    margin-bottom: 80px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+    background-color: #414141;
+}
+
+blockquote {
+   color : #f9f9f9;
+}
+
+div.people_911 {
+    width: 780px;
+    margin: auto;
+    margin-top: 20px;
+    alignment: center;
+    position: relative;
+}
+
+div.bar_chart_title {
+    position: absolute;
+    top: 40px;
+    right: 200px;
+}
+
+div.float {
+    position: absolute;
+    top: 200px;
+    width:600px;
+    height:100px;
+    /*padding:10px;*/
+    /*box-sizing:border-box;*/
+    /*margin-top:100px;*/
+    background-color: #414141;
+    /*box-shadow:0px 0px 3px 0px #7e7f80;*/
+    margin-bottom:10px;
+}
+
+.title {
+    fill: #ffd369;
+    text-anchor: start;
+    font-size: x-large;
+}
+
+.sub_title {
+    fill: white;
+    text-anchor: start;
+    font-size: large;
+}
+
+.last_update_text {
+    fill:#c8c7c7;
+    text-anchor: start;
+    font-size: small;
+}
+
+.ongoing_text {
+    fill:white;
+    text-anchor: start;
+    font-size: small;
+}
+
+.transition_text_large {
+    font-size: x-large;
+    fill: white;
+    font-weight: bold;
+    text-anchor: start;
+    text-align: center;
+}
+
+.transition_text_small {
+    font-size: medium;
+    fill: white;
+    font-weight: bold;
+    text-anchor: start;
+    text-align: center;
+}
+
+.event_label {
+    font-size: small;
+    fill: white;
+    text-anchor: start;
+}
+
+.lives_lost_text {
+    font-size: x-small;
+    fill: #ffd369;
+    text-anchor: start;
+}
+
+p {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: justify;
+    font-size: small;
+    color: #d2d2d2;
+}
+
+h3 {
+    color: #fcfafa;
+}
+
+span.lives_lost {
+    color: #ffd369;
+}
+
+span.covid {
+    color: #ff4646;
+}
+
+svg rect {
+    fill: orange;
+}
+
+div.main {
+    margin-top: 70px;
+    width: 780px;
+    /*margin-left: 0px;*/
+}
+
+div.comment {
+    padding-top: 10px;
+    background-color: #ffffff;
+}
+.flex-container {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.flex-container > div {
+    margin: 0px;
+    padding-right: 0px;
+    font-size: 10px;
+}
+svg text.comment_body {
+    fill: black;
+    font: 20px sans-serif;
+    /* text-anchor: end; */
+}
+
+svg text {
+    fill: black;
+    font: 12px sans-serif;
+    text-anchor: end;
+}
+.axis-title {
+    font: 16px sans-serif;
+}
+yaxis.prob {
+    font: 18px sans-serif;
+}
+
+yaxis.big {
+    font-size: 20px;
+}
+h1 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+}
