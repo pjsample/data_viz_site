@@ -377,7 +377,6 @@ draw_911_people();
 
 d3.csv('https://raw.githubusercontent.com/nytimes/covid-19-data/master/us.csv')
     .then(function(data) {
-        console.log(data);
         event_deaths["COVID-19"] = data[data.length - 1]["deaths"]
         last_update_date = data[data.length - 1]["date"];
 
@@ -394,7 +393,6 @@ d3.csv('https://raw.githubusercontent.com/nytimes/covid-19-data/master/us.csv')
                 event_deaths["COVID-19"] = data[data.length - 1]["deaths"];
                 last_update_date = data[data.length - 1]["date"];
 
-                console.log(data);
                 draw_bar_plots();
                 makeBarChartTitleSection();
             })
