@@ -287,7 +287,7 @@ function makeBarChartTitleSection() {
         // .style("font", "small")
         // .style("fill", "#c8c7c7")
 
-    addBlinkingDatum(g, 5, 84, 3, event_colors["COVID-19"]);
+    addBlinkingDatum(g, 7, 85, 3, event_colors["COVID-19"]);
 
     g.append("text")
         .classed("ongoing_text", true)
@@ -300,7 +300,7 @@ function makeBarChartTitleSection() {
 function addBlinkingDatum(g, x, y, r, color) {
     let live_point = g.append("circle")
         .attr("cx", x)
-        .attr("cy", y + 1) // Manual adjust by 1px -- wasn't lining up perfectly...
+        .attr("cy", y)
         .attr("r", r - 0.3)
         .style("stroke", color)
         .style("stroke-width","1.5px")
@@ -375,7 +375,7 @@ function makeBarChartAnnotation(x_pos, y_pos) {
 draw_911_people();
 
 
-d3.csv('https://github.com/nytimes/covid-19-data/blob/master/us.csv')
+d3.csv('https://raw.githubusercontent.com/nytimes/covid-19-data/master/us.csv')
     .then(function(data) {
         console.log(data);
         event_deaths["COVID-19"] = data[data.length - 1]["deaths"]
@@ -439,71 +439,3 @@ d3.csv('https://github.com/nytimes/covid-19-data/blob/master/us.csv')
 //     });
 //
 // });
-
-
-// draw_bar_plots();
-// makeBarChartTitleSection();
-// function draw_covid_plot(source) {
-//     let sq_dim = Math.round(Math.sqrt(event_deaths[source] / event_deaths['911']))
-//     console.log(sq_dim);
-//
-//     let list = []
-//     for (let y = 0; y < sq_dim; y++) {
-//         for (let x = 0; x < sq_dim; x++) {
-//             list.push({'x': x, 'y': y, 'event_type': "covid"});
-//         }
-//     }
-//     console.log(list);
-//
-//     let margin = {top: 10, right: 10, bottom: 10, left: 10};
-//     let width = sq_dim * 20 - margin.left - margin.right,
-//         height = sq_dim * 20 - margin.top - margin.bottom;
-//
-//     let xScale = d3.scaleBand().domain(d3.range(sq_dim))
-//         .range([0, width]);
-//     let yScale = d3.scaleBand().domain(d3.range(sq_dim))
-//         .range([0, height]);
-//
-//
-//     let single_bard_svg = d3.select("#covid_div").append("svg")
-//         .attr("width", width + margin.left + margin.right)
-//         .attr("height", height + margin.top + margin.bottom)
-//
-//     let g = single_bard_svg.append("g")
-//         .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
-//
-//     g.append("g")
-//         .attr("id", "x_ax")
-//         .attr("transform", "translate(0," + height + ")")
-//         .call(d3.axisBottom(xScale)
-//             .ticks(0))
-//         .call(g => g.select(".domain").remove())
-//         .call(g => g.selectAll(".tick").remove())
-//
-//
-//     g.append("g")
-//         .attr("transform", "translate(0,0)")
-//         .call(d3.axisLeft(yScale)
-//             .ticks(0))
-//         .call(g => g.select(".domain").remove())
-//         // .call(g => g.selectAll(".tick:not(:first-of-type) line")
-//         //     .attr("stroke-opacity", 0.5)
-//         //     .attr("stroke-dasharray", "5,10"))
-//         // .attr("color", "grey")
-//
-//     g.selectAll(".point")
-//         .data(list)
-//         .enter()
-//         .append("circle")
-//         .attr("class", "point")
-//         .attr("cx", d => xScale(d.x))
-//         .attr("cy", d => yScale(d.y))
-//         .attr("r", 4)
-//         .attr("fill", d => event_colors[d.event_type]);
-//
-//
-//
-// }
-
-
-
