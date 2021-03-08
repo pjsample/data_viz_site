@@ -3,8 +3,8 @@ const event_deaths = {"911": 2977,
                       "Korean War": 36516,
                       "Vietnam War": 58209,
                       "World War I": 116516,
-                      "COVID-19": 0,
                       "World War II": 405399,
+                      "COVID-19": 0,
                       "The American Civil War": 655000};
 // "1918 Spanish Flu": 675000
 
@@ -133,20 +133,6 @@ function draw_911_people() {
         .text("2,977 deaths")
         .style("font-size", "medium")
         .style("font-weight", "normal")
-
-
-
-    // d3.xml("./images/people_to_point.svg")
-    //     .then(data => {
-    //         d3.select("#test_div").node().append(data.documentElement).style("width", 1000)
-    //     });
-
-    // g.append("image")
-    //     .attr('xlink:href', "./images/people_to_point.svg")
-    //     .attr("width", 200) // xScale(n_cols)
-    //     .attr("height", 60)
-    //     .attr("x", d => xScale(0))
-    //     .attr("y", d => yScale(n_rows - 1) + 20)
 
 }
 function draw_bar_plots() {
@@ -304,7 +290,7 @@ function addBlinkingDatum(g, x, y, r, color) {
         .attr("r", r - 0.3)
         .style("stroke", color)
         .style("stroke-width","1.5px")
-        .attr("fill-opacity","0");
+        .attr("fill-opacity","1");
     repeat();
 
     function repeat() {
