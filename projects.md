@@ -6,6 +6,11 @@ description: Projects
 
 
 ## Generative Art
+<a href="/projects/genart/alien_music/index.html">Alien Sheet Music
+  <img src="/projects/genart/alien_music/images/sheet_music1.png" alt="Lincoln" width="600" height="771">
+  <img src="/projects/genart/alien_music/images/sheet_music2.png" alt="Lincoln" width="600" height="771">
+</a> 
+
 <a href="/projects/genart/lincoln/index.html">Sampled Lincoln
   <img src="/projects/genart/lincoln/pics/generated_lincoln.png" alt="Lincoln" width="600" height="690">
 </a> 
