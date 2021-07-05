@@ -6,17 +6,21 @@ description: Projects
 
 
 ## Generative Art
-<!---
 <a href="/projects/genart/lincoln/index.html">Sampled Lincoln
-  <img src="/projects/genart/lincoln/pics/generated_lincoln.png" alt="Lincoln" width="400" height="460">
+  <img src="/projects/genart/lincoln/pics/generated_lincoln.png" alt="Lincoln" width="600" height="690">
 </a> 
+
+<p></p>
+
+<a href="/projects/genart/donut_boxes/donut_boxes.ipynb">Multinomial Sampling from Normally Distributed Torus</a> 
+<img src="/projects/genart/donut_boxes/images/single_circle.png" alt="donut" width="600" height="600">
+<img src="/projects/genart/donut_boxes/images/6_rings_normally_sampled.png" alt="donut" width="600" height="471">
 
 <p></p>
 
 <a href="/projects/genart/candy_boxes/index.html">Cherry Candy
   <img src="/projects/genart/candy_boxes/images/cherries_with_name.png" alt="Lincoln" width="600" height="436">
 </a> 
---->
 
 ## Data Viz
 

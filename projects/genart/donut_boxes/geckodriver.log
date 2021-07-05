@@ -1,0 +1,6 @@
+1625515464147	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/var/folders/0m/s57_3n8964x72pdhrwp_6q_h0000gp/T/rust_mozprofile.Kkt88mBLMDrr"
+*** You are running in headless mode.
+1625515464584	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0m/s57_3n8964x72pdhrwp_6q_h0000gp/T/rust_mozprofile.Kkt88mBLMDrr/search.json.mozlz4", (void 0)))
+1625515465679	Marionette	INFO	Listening on port 50549
+1625515465725	Marionette	WARN	TLS certificate errors will be ignored for this session
