@@ -4,7 +4,18 @@ title: Projects
 description: Projects
 ---
 
-## Projects
+
+## Generative Art
+<a href="/projects/genart/lincoln/index.html">Sampled Lincoln
+  <img src="/projects/genart/lincoln/pics/generated_lincoln.png" alt="Lincoln" width="400" height="460">
+</a> 
+<p></p>
+<a href="/projects/genart/candy_boxes/index.html">Cherry Candy
+  <img src="/projects/genart/candy_boxes/images/cherries_with_name.png" alt="Lincoln" width="600" height="436">
+</a> 
+
+
+## Data Viz
 
 
 <h3>2020</h3>
